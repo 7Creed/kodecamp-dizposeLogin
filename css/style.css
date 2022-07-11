@@ -93,7 +93,7 @@ input[type= text], input[type= email], input[type= number], input[type="password
 }
 
 #login .text-area {
-    margin: 80px 0;
+    margin: 60px 0 40px 0;
 }
 
 #login a:hover {
@@ -232,6 +232,23 @@ input[type= text], input[type= email], input[type= number], input[type="password
     .line-box p {
         font-size: 13px;
     }
+
+
+    .nav-link {
+        color: black !important;
+    }
+
+    .nav-link .active {
+        border-bottom: none !important;
+    }
+
+    #sign-up {
+        background-color: transparent !important;
+    }
+
+    header .nav-item .nav-link:focus {
+        color: #17A200 !important;
+    }
 }
 
 
@@ -243,7 +260,7 @@ input[type= text], input[type= email], input[type= number], input[type="password
         color: black !important;
     }
 
-    .nav-link.active {
+    .nav-link .active {
         border-bottom: none !important;
     }
 
@@ -307,6 +324,10 @@ input[type= text], input[type= email], input[type= number], input[type="password
 
     .text {
         width: 45%;
+    }
+
+    header .nav-item .nav-link:focus {
+        color: #17A200 !important;
     }
 }
 
